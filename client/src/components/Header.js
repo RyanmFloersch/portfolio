@@ -5,7 +5,7 @@ function Header(props) {
 
     return (
 
-        <header>
+        <header className="sticky">
             <h1>Ryan Floersch</h1>
             <Navigation />
         </header>
