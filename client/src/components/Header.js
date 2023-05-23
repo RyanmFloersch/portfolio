@@ -5,9 +5,15 @@ function Header(props) {
 
     return (
 
-        <header className="sticky">
-            <h1>Ryan Floersch</h1>
+        <header className="  bg-emerald-200">
+            <nav>
+                <div className="flex flex-wrap justify-start items-center  max-w-screen-xl p-4">
+                    <NavLink to="/"><span className="text-2xl font-bold whitespace-nowrap">Ryan Floersch</span></NavLink>
+                </div>
+            </nav>
+            
             <Navigation />
+            
         </header>
 
     );
