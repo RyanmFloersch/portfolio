@@ -9,9 +9,10 @@ function Portfolio(props) {
         <>
 
 
-            <section className='portfolio'>
+            <section className='flex flex-col items-center'>
                 <Project urlLink={"https://github.com/RyanmFloersch/BowlCrawl"} image={"/BowlCrawlScreenshot.png"} alt={"image of bowl crawl website"} project={project_1} />
                 <Project urlLink={"https://github.com/RyanmFloersch/Realtor_App"} image={"/HouseHunter.png"} alt={"image of house hunter website login page"} project={project_2} />
+                <Project urlLink={"https://github.com/AustinL96/daedalus_roster"} image={"/HouseHunter.png"} alt={"image of house hunter website login page"} project={project_2} />
 
             </section>
         </>

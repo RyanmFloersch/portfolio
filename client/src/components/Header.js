@@ -5,15 +5,15 @@ function Header(props) {
 
     return (
 
-        <header className="  bg-emerald-200">
-            <nav>
-                <div className="flex flex-wrap justify-start items-center  max-w-screen-xl p-4">
-                    <NavLink to="/"><span className="text-2xl font-bold whitespace-nowrap">Ryan Floersch</span></NavLink>
-                </div>
-            </nav>
+        <header className=" bg-slate-700 w-full  ">
             
-            <Navigation />
-            
+                {/* <div className="flex flex-wrap justify-start items-center  max-w-screen-xl p-4"> */}
+                {/* <h1 className="sm:visible invisible">Ryan Floersch</h1> */}
+                {/* <NavLink to="/"></NavLink> */}
+                {/* </div> */}
+                <Navigation />
+
+
         </header>
 
     );
