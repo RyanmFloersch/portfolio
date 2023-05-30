@@ -5,7 +5,7 @@ function Footer(props) {
 
     return (
 
-        <footer className=" mt-auto w-full  p-1 bg-emerald-200 ">
+        <footer className=" mt-auto w-full  p-1 bg-slate-700 ">
             <div className = "w-full max-w-screen-xs mx-auto md:py-4 p-2 ">
                 <div className="sm:flex sm:items-center sm:justify-evenly ">
                     <a href="https://www.linkedin.com/in/ryan-floersch-295993156/" className="flex items-center mb-4 sm:mb-0">

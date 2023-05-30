@@ -8,13 +8,12 @@ import Landing from './pages/Landing';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 
-
 function App() {
 
 
   return (
     <>
-    
+
       <Header />
 
       <div className="flex flex-col items-center min-h-screen bg-slate-800" >
@@ -27,7 +26,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
 
-        <SlideButton />
+
+
+        {/* <SlideButton /> */}
 
         <Footer />
 
