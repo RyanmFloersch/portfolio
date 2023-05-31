@@ -8,12 +8,12 @@ function Project(props) {
 
     return (
         <>
-            <div className='portfolio-container'>
-                <div className='portfolio-item'>
-                    <a href={props.urlLink} target='_blank' rel='noreferrer'>
-                        <img src={props.image} alt={props.alt} />
+            <div className='flex flex-col p-5 m-10 w-10/12 h-1/2 rounded text-emerald-200'>
+                <div className='grid lg:grid-cols-2 grid-cols-1 '>
+                    <a href={props.urlLink} className=" m-4" target='_blank' rel='noreferrer'>
+                        <img className="rounded" src={props.image} alt={props.alt} />
                     </a>
-                    <p>{props.project}</p>
+                    <p className="m-4 p-3 rounded ">{props.project}</p>
                 </div>
             </div>
 
