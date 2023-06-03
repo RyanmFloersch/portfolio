@@ -4,6 +4,8 @@
 
 import Project from '../components/Project';
 
+import ProjectCarousel from '../components/ProjectCarousel';
+
 
 function Landing(props) {
     
@@ -12,8 +14,7 @@ function Landing(props) {
 
     return (
         <main className=" text-emerald-200">
-
-            <img className="h-auto max-w-lg transition-all duration-300 rounded-full filter grayscale hover:grayscale-0 mx-auto" src="/Photo.jpg" alt="image description"/>
+            <img className="h-auto max-w-lg transition-all duration-300 rounded-full filter grayscale hover:grayscale-0 mx-auto my-3" src="/Photo.jpg" alt=" Ryan "/>
 
             <section className='hero m-5 '>
                 <h3 className='text-center'>Hello!</h3>
@@ -27,12 +28,15 @@ function Landing(props) {
 
             <h1 className='flex justify-center'>Projects</h1>
 
-            <section className='flex flex-col items-center'>
-                <Project urlLink={"https://github.com/RyanmFloersch/BowlCrawl"} image={"/BowlCrawlScreenshot.png"} alt={"image of bowl crawl website"} project={project_1} />
+            {/* <section className='flex flex-col items-center'>
+                <Project urlLink={"https://github.com/RyanmFloersch/BowlCrawl"} image={"/BowlMap.png"} alt={"image of bowl crawl website"} project={project_1} />
                 <Project urlLink={"https://github.com/RyanmFloersch/Realtor_App"} image={"/HouseHunter.png"} alt={"image of house hunter website login page"} project={project_2} />
                 <Project urlLink={"https://github.com/AustinL96/daedalus_roster"} image={"/HouseHunter.png"} alt={"image of house hunter website login page"} project={project_2} />
 
-            </section>
+            </section> */}
+
+            <ProjectCarousel/>
+
 
             <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
         </main>
