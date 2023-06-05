@@ -14,17 +14,18 @@ function Landing(props) {
     // const project_2 = 'A web application made to allow users to post and favorite house listings. This application makes use of express to route the information of the application while also making use of sequelize to create the models that would store the user and house data in the sql database.';
 
     return (
-        <main className=" text-emerald-200">
-            <img className="h-auto max-w-lg transition-all duration-300 rounded-full filter grayscale hover:grayscale-0 mx-auto my-3" src="/Photo.jpg" alt=" Ryan " />
+        <main className="flex flex-col text-emerald-200 ">
+            <section className=' flex w-full items-center justify-center '>
+                <img className="h-auto max-w-lg transition-all duration-300 rounded-full filter grayscale hover:grayscale-0 mt-5" src="/Photo.jpg" alt=" Ryan " />
 
-            <section className='hero m-5 '>
-                <h3 className='text-center'>Hello!</h3>
-                <p className='text-center'>My name is Ryan Floersch, I'm from Princeton NJ and studdied Software development at DeVry University. </p>
-                <br></br>
-                <p className='text-center'>I recently completed a web development bootcamp. I am always interested in learning more and I'm excited to apply that knowledge within a professional environment.</p>
+                <div className='hero mt-5 w-1/2 '>
+                    <h3 className='text-center'>Hello!</h3>
+                    <p className='text-center'>My name is Ryan Floersch, I'm from Princeton NJ and studdied Software development at DeVry University. </p>
+                    <br></br>
+                    <p className='text-center m-5'>I recently completed a web development bootcamp. I am always interested in learning more and I'm excited to apply that knowledge within a professional environment.</p>
 
+                </div>
             </section>
-
             <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent  via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
 
             <h1 className='flex justify-center text-5xl'>Projects</h1>
