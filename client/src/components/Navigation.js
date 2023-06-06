@@ -1,12 +1,16 @@
 
 import { NavLink } from "react-router-dom";
+// 'use client';
+import 'flowbite-react';
+import 'tw-elements';
 
-import 'flowbite';
+
 
 function Navigation() {
 
 
     return (
+        
         <div className="flex md:flex-row flex-col md:justify-start   ">
             <div className="flex flex-row justify-between items-center px-2   ">
 
