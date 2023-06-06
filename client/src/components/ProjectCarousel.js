@@ -19,7 +19,7 @@ function ProjectCarousel(prop) {
                 <div className="relative h-96 overflow-hidden rounded-lg md:h-96">
                     {/* <!-- Item 1 --> */}
                     <div className="hidden  duration-200 ease-linear" data-carousel-item="active">
-                        <CarsoulProjectItem urlLink={"https://github.com/RyanmFloersch/BowlCrawl"} projectName={"Bowl Crawl"} image={"/BowlMap.png"} alt={"image of bowl crawl website"} project={project_1} />
+                        <CarsoulProjectItem urlLink={"https://github.com/RyanmFloersch/BowlCrawl"} projectName={"Bowl Crawl"} image={"/BowlMapPic.png"} alt={"image of bowl crawl website"} project={project_1} />
 
                     </div>
 
@@ -31,7 +31,7 @@ function ProjectCarousel(prop) {
                     </div>
                     {/* <!-- Item 3 --> */}
                     <div className="hidden duration-200 ease-linear" data-carousel-item>
-                        <CarsoulProjectItem urlLink={"https://github.com/AustinL96/daedalus_roster"} projectName={"Daedalus Roster"} image={"/Roster.png"} alt={"image of daedulus roster website login page"} project={project_3} />
+                        <CarsoulProjectItem urlLink={"https://github.com/AustinL96/daedalus_roster"} projectName={"Daedalus Roster"} image={"/RosterPic.png"} alt={"image of daedulus roster website login page"} project={project_3} />
                     </div>
                     {/* <!-- Item 4 --> */}
                     {/* <div className="hidden group  duration-200 ease-linear" data-carousel-item id="testProject">
