@@ -13,24 +13,23 @@ function ProjectCarousel(prop) {
     const project_3 = 'Daedalus Roster, is a user-friendly job board application designed to connect talented individuals with exciting job opportunities. Whether you\'re a freelancer looking for project-based work or a user seeking skilled professionals. Freelancers can effortlessly create and publish detailed job listings, showcasing their expertise, availability, and desired compensation. Meanwhile, users can explore a vast array of job listings, filtering by industry, skillset, location, and more.';
 
     return (
-        <div className="m-6 ">
-            <div id="animation-carousel" className="relative w-full h-full px-10 pb-10" data-carousel="static">
+        <section className="m-6 ">
+            <div id="default-carousel" className="relative w-full h-full px-10 pb-10" data-carousel="static">
                 {/* <!-- Carousel wrapper --> */}
                 <div className="relative h-96 overflow-hidden rounded-lg md:h-96">
                     {/* <!-- Item 1 --> */}
-                    <div className="hidden  duration-200 ease-linear" data-carousel-item="active">
+                    <div className="hidden  duration-700 ease-in-out" data-carousel-item>
                         <CarsoulProjectItem urlLink={"https://github.com/RyanmFloersch/BowlCrawl"} projectName={"Bowl Crawl"} image={"/BowlMapPic.png"} alt={"image of bowl crawl website"} project={project_1} />
-
                     </div>
 
                     {/* <!-- Item 2 --> */}
-                    <div className="hidden  duration-200 ease-linear" data-carousel-item>
+                    <div className="hidden  duration-700 ease-in-out" data-carousel-item>
                         <CarsoulProjectItem urlLink={"https://github.com/RyanmFloersch/Realtor_App"} projectName={"House Hunter"} image={"/HouseHunter.png"} alt={"image of house hunter website login page"} project={project_2} />
 
 
                     </div>
                     {/* <!-- Item 3 --> */}
-                    <div className="hidden duration-200 ease-linear" data-carousel-item>
+                    <div className="hidden duration-700 ease-in-out" data-carousel-item>
                         <CarsoulProjectItem urlLink={"https://github.com/AustinL96/daedalus_roster"} projectName={"Daedalus Roster"} image={"/RosterPic.png"} alt={"image of daedulus roster website login page"} project={project_3} />
                     </div>
                     {/* <!-- Item 4 --> */}
@@ -59,7 +58,7 @@ function ProjectCarousel(prop) {
                     </span>
                 </button>
             </div>
-        </div>
+        </section>
     )
 
 }
