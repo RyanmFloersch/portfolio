@@ -37,6 +37,10 @@ function ProjectCarousel(prop) {
                     <p>Slide 3</p>
                         {/* <CarsoulProjectItem urlLink={"https://github.com/AustinL96/daedalus_roster"} projectName={"Daedalus Roster"} image={"/RosterPic.png"} alt={"image of daedulus roster website login page"} project={project_3} /> */}
                     </div>
+                    <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                    <p>Slide 4</p>
+                        {/* <CarsoulProjectItem urlLink={"https://github.com/AustinL96/daedalus_roster"} projectName={"Daedalus Roster"} image={"/RosterPic.png"} alt={"image of daedulus roster website login page"} project={project_3} /> */}
+                    </div>
                 </div>
 
 
