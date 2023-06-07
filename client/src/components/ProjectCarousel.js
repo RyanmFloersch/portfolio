@@ -7,6 +7,11 @@ import { Carousel } from 'flowbite-react';
 // }
 import CarsoulProjectItem from './CarouselProjectItem';
 
+import { initFlowbite } from 'flowbite'
+useEffect(() => {
+    initFlowbite();
+  }, []);
+
 
 function ProjectCarousel(prop) {
     const project_1 = 'This application is a simple client-side application that allows the user to insert a location of their choosing and be provided with four different bowling locations with the name of the establishment, the address, the distance from the starting point, and the phone number. This project was made with group members to build an application using third-party APIs so that we could apply our new acquired skills to the test. We used team collaboration, agile development, storytelling, and project demonstration.';
