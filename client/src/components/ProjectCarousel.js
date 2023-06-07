@@ -32,23 +32,23 @@ function ProjectCarousel(prop) {
                 {/* <!-- Carousel wrapper --> */}
                 <div className="relative h-96 overflow-hidden rounded-lg md:h-96">
                     <div className="hidden  duration-700 ease-in-out" data-carousel-item>
-                        <p>Slide 1</p>
-                        {/* <CarsoulProjectItem urlLink={"https://github.com/RyanmFloersch/BowlCrawl"} projectName={"Bowl Crawl"} image={"/BowlMapPic.png"} alt={"image of bowl crawl website"} project={project_1} /> */}
+                        {/* <p>Slide 1</p> */}
+                        <CarsoulProjectItem urlLink={"https://github.com/RyanmFloersch/BowlCrawl"} projectName={"Bowl Crawl"} image={"/BowlMapPic.png"} alt={"image of bowl crawl website"} project={project_1} />
                     </div>
 
                     <div className="hidden  duration-700 ease-in-out" data-carousel-item>
-                    <p>Slide 2</p>
-                        {/* <CarsoulProjectItem urlLink={"https://github.com/RyanmFloersch/Realtor_App"} projectName={"House Hunter"} image={"/HouseHunter.png"} alt={"image of house hunter website login page"} project={project_2} /> */}
+                    {/* <p>Slide 2</p> */}
+                        <CarsoulProjectItem urlLink={"https://github.com/RyanmFloersch/Realtor_App"} projectName={"House Hunter"} image={"/HouseHunter.png"} alt={"image of house hunter website login page"} project={project_2} />
                     </div>
 
                     <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                    <p>Slide 3</p>
-                        {/* <CarsoulProjectItem urlLink={"https://github.com/AustinL96/daedalus_roster"} projectName={"Daedalus Roster"} image={"/RosterPic.png"} alt={"image of daedulus roster website login page"} project={project_3} /> */}
+                    {/* <p>Slide 3</p> */}
+                        <CarsoulProjectItem urlLink={"https://github.com/AustinL96/daedalus_roster"} projectName={"Daedalus Roster"} image={"/RosterPic.png"} alt={"image of daedulus roster website login page"} project={project_3} />
                     </div>
-                    <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                    <p>Slide 4</p>
+                    {/* <div className="hidden duration-700 ease-in-out" data-carousel-item> */}
+                    {/* <p>Slide 4</p> */}
                         {/* <CarsoulProjectItem urlLink={"https://github.com/AustinL96/daedalus_roster"} projectName={"Daedalus Roster"} image={"/RosterPic.png"} alt={"image of daedulus roster website login page"} project={project_3} /> */}
-                    </div>
+                    {/* </div> */}
                 </div>
 
 

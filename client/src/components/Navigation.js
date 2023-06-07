@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 
 
 function Navigation() {
-
+  
     useEffect(() => {
         initFlowbite();
     }, []);
