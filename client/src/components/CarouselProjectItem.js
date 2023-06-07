@@ -22,7 +22,7 @@ function CarouselProjectItem(props) {
                     </a>
 
                     <p className="md:text-base md:w-1/2 text-xs items-center md:mt-7  mx-auto rounded ">{props.project}</p>
-                    <button className="md:hidden visible bg-emerald-800 mx-auto rounded w-1/2 ">Visit</button>
+                    <button className="md:hidden visible bg-emerald-800 mx-auto rounded w-1/2 "><a href={props.urlLink}>Visit</a></button>
 
                 </div>
             </div>
