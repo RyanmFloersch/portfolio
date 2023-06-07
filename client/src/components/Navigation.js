@@ -1,12 +1,20 @@
 
 import { NavLink } from "react-router-dom";
+// 'use client';
+import 'flowbite-react';
+import 'tw-elements';
 
-import 'flowbite';
+import { initFlowbite } from 'flowbite'
+import { useEffect } from 'react';
+
 
 function Navigation() {
-
-
+  
+    useEffect(() => {
+        initFlowbite();
+    }, []);
     return (
+
         <div className="flex md:flex-row flex-col md:justify-start   ">
             <div className="flex flex-row justify-between items-center px-2   ">
 
@@ -26,7 +34,7 @@ function Navigation() {
                     {/* <NavLink className={"block text-black py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"} to="/">About Me</NavLink> */}
                     {/* <NavLink className={"block text-black py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"} to="/portfolio">Portfolio</NavLink> */}
                     {/* <NavLink className={"block text-black py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"} to="/contact">Contact</NavLink> */}
-                   
+
                     <a href="mailto: ryanmichaelfloersch@gmail.com" className="block text-black py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
                     <a href="Ryan Floersch Resume.pdf" className="block text-black py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Resume</a>
                     {/* <NavLink className={"block text-black py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"} to="/resume">Resume</NavLink> */}
