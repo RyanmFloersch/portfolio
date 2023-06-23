@@ -1,12 +1,12 @@
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import SlideButton from './components/slideButton';
-
+import Certifications from './components/Certifications';
 
 import Landing from './pages/Landing';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+
 
 function App() {
 
@@ -27,7 +27,7 @@ function App() {
         </Routes>
 
 
-
+        <Certifications></Certifications>
         {/* <SlideButton /> */}
 
         <Footer />

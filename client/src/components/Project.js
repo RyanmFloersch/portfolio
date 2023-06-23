@@ -12,7 +12,7 @@ function Project(props) {
                 <div className='grid lg:grid-cols-2 grid-cols-1 '>
                     <div className="">
                         <a  href={props.urlLink} className="relative  m-4" target='_blank' rel='noreferrer'>
-                            <img src="/location-pointer.png  absolute top-0 left-0 mt-32 ml-40" className="relative top-0" alt="" width='600'/>
+                            <img src="/location-pointer.png  " className="relative top-0" alt="" width='600'/>
                             <img className="rounded absolute top-0 left-0" src={props.image} alt={props.alt} />
 
                         </a>
