@@ -1,11 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Certifications from './components/Certifications';
 
 import Landing from './pages/Landing';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+// import Contact from './pages/Contact';
 
 
 function App() {
@@ -23,12 +21,12 @@ function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
           {/* <Route path="/portfolio" element={<Portfolio />} /> */}
-          <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
 
 
-        <Certifications></Certifications>
         {/* <SlideButton /> */}
+        <span className="h-1 w-full bg-emerald-600 lg:w-full"></span>
 
         <Footer />
 

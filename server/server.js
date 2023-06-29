@@ -1,6 +1,8 @@
 require('dotenv').config();
 const http = require('http');
 const express = require('express');
+const cors = require('cors');
+const routes = require('./routes');
 
 // const db = require('./config/connection');
 
@@ -11,9 +13,10 @@ const path = require('path');
 const _dirname = path.dirname("");
 const buildPath = path.join(_dirname, "../client/build")
 
+app.use(express.json());
 app.use(express.static(buildPath));
 
-app.get("/*", function(req, res){
+app.get("/", function(req, res){
 
     res.sendFile(
         path.join(__dirname,"../client/build/index.html"),
@@ -27,6 +30,9 @@ app.get("/*", function(req, res){
 });
 
 
+
+
+app.use(routes);
 
 app.listen(PORT, () => console.log('Server started on port %s',PORT))
 

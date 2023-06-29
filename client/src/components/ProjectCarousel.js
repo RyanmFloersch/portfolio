@@ -19,16 +19,18 @@ function ProjectCarousel(prop) {
 
     useEffect(() => {
         initFlowbite();
-      }, []);
+    }, []);
 
     return (
 
 
-        <section className="m-6 ">
+        <section className="flex flex-col m-6 items-center">
+
+            <h1 className=' justify-center my-10 text-5xl'>Projects</h1>
 
 
-
-            <div id="default-carousel" className="relative w-full h-full px-10 pb-10" data-carousel="static">
+            {/* remove h-full for div */}
+            <div id="default-carousel" className="relative w-full  px-10 " data-carousel="static">
                 {/* <!-- Carousel wrapper --> */}
                 <div className="relative h-96 overflow-hidden rounded-lg md:h-96">
                     <div className="hidden  duration-700 ease-in-out" data-carousel-item>
@@ -37,12 +39,12 @@ function ProjectCarousel(prop) {
                     </div>
 
                     <div className="hidden  duration-700 ease-in-out" data-carousel-item>
-                    {/* <p>Slide 2</p> */}
+                        {/* <p>Slide 2</p> */}
                         <CarsoulProjectItem urlLink={"https://github.com/RyanmFloersch/Realtor_App"} projectName={"House Hunter"} image={"/HouseHunter.png"} alt={"image of house hunter website login page"} project={project_2} />
                     </div>
 
                     <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                    {/* <p>Slide 3</p> */}
+                        {/* <p>Slide 3</p> */}
                         <CarsoulProjectItem urlLink={"https://github.com/AustinL96/daedalus_roster"} projectName={"Daedalus Roster"} image={"/RosterPic.png"} alt={"image of daedulus roster website login page"} project={project_3} />
                     </div>
 
